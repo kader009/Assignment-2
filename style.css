@@ -214,6 +214,69 @@ footer .footer-icon a:hover{
 
 /* end */
 
+/* media query start for first site */
+
+@media screen and (max-width:576px) {
+  header{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  header .header-text h1{
+    font-size: 2.25rem;
+    margin-bottom: 1.0625rem;
+  }
+  header .header-text p{
+    font-size: 17px;
+    line-height: 1.4;
+  }
+  header .header-text .btn{
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+  header .header-img img{
+    top: 9.7%;
+    
+  }
+  main .main-section{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  main .main-section .main-fast{
+    background: none;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+  main .main-section .main-fast .upc{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  main .main-section .main-fast .all{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  main .main-section .main-fast .blog{
+    margin-bottom: 30px;
+  }
+  .main-section .main-box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* width: 100%; */
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  footer .footer-text{
+    flex-direction: column;
+    margin-left: 40%;
+    gap: 20px;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
+  }
+  footer .footer-icon a:hover{
+    color: rgb(14, 124, 234);
+  }
+  
+}
+
+
+/* end */
+
 
 /* website two style */
 
