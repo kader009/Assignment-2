@@ -27,7 +27,7 @@ header .header-text h1{
   font-size: 4.25rem;
   line-height: 1.2;
   margin-bottom: 1.0625rem;
-  /* animation: animation 3s 1 ease-in; */
+  animation: animation 3s 1 ease-in;
 }
 @keyframes animation{
   0%{
